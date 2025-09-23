@@ -1,0 +1,16 @@
+p { 
+    color: red;
+    background-color: black;
+    border: solid yellow 20px;
+    border-radius: 10px;
+    height: 200px;
+    width: 450px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 200px; /* Solution la plus "propre" sans flexbox */
+}
+
+p:hover {
+    color: black;
+    background-color: red;
+}
