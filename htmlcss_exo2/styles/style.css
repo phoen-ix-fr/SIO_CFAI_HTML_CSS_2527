@@ -88,3 +88,36 @@ header
     margin-left: 20px; 
 }
 
+#col-left .box
+{
+    background-color: #5bc4fd;
+    color: white;
+    border-radius: 20px;
+    padding: 8px;
+    margin-bottom: 20px;;
+}
+
+#col-left .box ul
+{
+    list-style: none;
+}
+
+#col-right article h3
+{
+    color: white;
+    background-color: #5bc4fd;
+    padding: 10px;
+}
+
+#col-right article header
+{
+    height: 0;
+}
+
+#col-right article p
+{
+    margin-top: 60px;
+    padding-left: 30px;
+    margin-bottom: 0;
+}
+
