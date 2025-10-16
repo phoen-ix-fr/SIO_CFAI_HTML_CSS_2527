@@ -1,0 +1,68 @@
+/* 
+    On défini la largeur du body et on le centre 
+    Définir des marges "automatiques" sur un élément dont une largeur est définie, va le centrer par rapport à son élément parent (ici <html>)
+*/
+body
+{
+    margin: auto;
+    width: 770px;
+}
+
+/* ========= HEADER ========= */
+header
+{
+    position: relative;
+    height: 175px; /* C'est la hauteur de mon image */
+}
+
+    /*
+        On positionne la navigation en haut à droite par rapport à son conteneur (<header>)
+    */
+    header nav ul
+    {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 0;
+    }
+
+        /*
+            On modifie la manière dont est afficher les <li>
+            Par défaut en block, chacun à la ligne, on va faire en sorte qu'ils s'affichent en ligne
+            Avec un espacement de 8px entre les éléments
+        */
+        header nav ul li
+        {
+            display: inline-block;
+            margin-right: 8px;
+        }
+
+        /*
+            On modifie la position de notre <h1> ainsi que sa couleur et sa taille
+            On va le bloquer en  haut en droite en fonction de son conteneur parent (absolute)
+        */
+        header h1
+        {
+            position: absolute;
+            right: 0;
+            top: 0;
+            color: orange;
+            font-size: 3em;
+        }
+
+        /*
+            Et on fait la même chose pour le sous-titre sur le même principe
+            En créant cette fois-ci un écart de 20px avec le titre principal
+        */
+        header h2
+        {
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+        }
+
+
+/* ========= MAIN ========= */
+
+/* On va utiliser les flotant pour gérer les deux colonnes du contenu principal */
+
