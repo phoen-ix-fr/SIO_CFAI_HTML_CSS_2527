@@ -121,3 +121,31 @@ header
     margin-bottom: 0;
 }
 
+
+/* ========= FOOTER ========= */
+#col-right #footer
+{
+    background-color: #5bc4fd;
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+    height: 40px;
+}
+    #col-right #footer nav ul
+    {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        margin-top: 10px;
+    }
+        #col-right #footer nav ul li
+        {
+            display: inline-block;
+            margin-right: 20px;
+        }
+    #col-right #footer p
+    {
+        padding-top: 15px;
+        padding-left: 30px;
+    }
