@@ -66,3 +66,25 @@ header
 
 /* On va utiliser les flotant pour gérer les deux colonnes du contenu principal */
 
+/* On défini les deux colonnes avec les tailles correspondantes */
+#col-right, #col-left
+{
+    float: left;
+    margin:0;
+}
+
+#col-left
+{
+    width: 170px;
+}
+
+/* 
+    Ne pas oublier de prendre en compte la marge, 
+    body = 770px, donc la colonne de droite doit faire 770 - 170 - 20 = 580px 
+*/
+#col-right
+{
+    width: 580px;
+    margin-left: 20px; 
+}
+
