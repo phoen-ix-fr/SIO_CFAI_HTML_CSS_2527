@@ -1,0 +1,29 @@
+/* Desktop first */
+div {
+    border: black solid 1px;
+    height: 30px;
+    display: inline-block;
+    width: 32.9%;
+}
+
+@media screen and (max-width: 576px) {
+    div {
+        display: block;
+        width: 100%;
+    }
+}
+
+/* Mobile first */
+div {
+    border: black solid 1px;
+    height: 30px;
+    display: block;
+    width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+    div {
+        display: inline-block;
+        width: 32.9%;
+    }
+}
