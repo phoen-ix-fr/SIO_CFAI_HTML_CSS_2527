@@ -1,0 +1,40 @@
+div.container {
+    display: grid;
+    gap: 10px;
+
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
+}
+
+div.one {
+    background-color: red;
+    color: white;
+    
+}
+
+div.two {
+    background-color: green;
+    color: white;
+            
+}
+
+div.three {
+    background-color: blue;
+    color: white;
+    
+}
+
+div.four {
+    background-color: yellow;
+                
+}
+
+div.five {
+    background-color: violet;
+            
+}
+
+div.six {
+    background-color: orange;
+
+}
