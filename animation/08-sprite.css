@@ -1,0 +1,24 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #ecf0f1;
+    font-family: Arial, sans-serif;
+}
+
+.sprite {
+    width: 64px; /* Largeur d'une frame */
+    height: 64px;
+    background: url('08-sprite.png');
+    animation: play 1s steps(6) infinite;
+}
+
+@keyframes play {
+    to { 
+        background-position: -384px 0;
+    }
+}
